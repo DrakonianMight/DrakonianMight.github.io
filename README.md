@@ -1,4 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to OceanView!
+
+**View MetOcean Data in a variety of forms**
+
+### NOAA Wave Forecast and Wave Monitoring Data
+
+[Link](https://drakonianmight.github.io/NOAA_WW3/)
 
 You can use the [editor on GitHub](https://github.com/DrakonianMight/DrakonianMight.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -8,18 +14,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
