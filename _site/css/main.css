@@ -1,10 +1,10 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 10px auto;
+    width: 100%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 20px;
     list-style: none;
     font-weight: bold;
 }
@@ -20,13 +20,30 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 5em;
+    margin: 20px auto;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h3 {
+    font-size: 2em;
+    margin: 10px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: rgb(0,0,0);
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #999;
+}
+ref {
+    font-size: 0.75em;
+    line-height: 1.4em;
+    color: rgb(0,0,0);
+}
+sub {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: 'white';
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -40,4 +57,19 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
