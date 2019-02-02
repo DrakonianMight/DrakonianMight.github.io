@@ -23,6 +23,7 @@ h1 {
     font-size: 5em;
     margin: 20px auto;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: rgb(255,255,255);
 }
 h3 {
     font-size: 2em;
@@ -43,7 +44,7 @@ ref {
 sub {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: 'white';
+    color: rgb(255,255,255);
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -60,16 +61,35 @@ ul.posts li {
 }
 /* Container holding the image and the text */
 .container {
+    position: relative;
+    text-align: center;
+}
+.containImage {
   position: relative;
   text-align: center;
-  color: white;
+  color: rgb(255,255,255);
 
 }
 
 /* Centered text */
 .centered {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.grid-item {
+
+}
+.logo {    
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }

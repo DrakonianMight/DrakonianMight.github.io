@@ -4,15 +4,22 @@
 			<title>OceanView</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+
 		</head>
 		<body>
 			<nav>
-	    		<ul>
+	    		<ul>	    		
+	    			<a href="/">
+	    				<div class="logo">
+	    					<img src="/img/wave-icon.jpg" width = "75" height="50">
+	    				</div>
+					</a>
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/Waves">Waves</a></li>
 	        		<li><a href="/Tides">Tides</a></li>
 	        		<li><a href="/about">About</a></li>
-	    		</ul>
+	    		</ul>					
+	    		
 			</nav>
 			<div class="container">
 			<!DOCTYPE html>
@@ -23,16 +30,28 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<h3>Significant Wave Height Actual and Forecast</h3>
-			<a href="wave_ht_plots.html">
-				<img src="wave_ht_static.png" width="400" height="200" />
-			</a>
-			<h3>Significant Wave Height Latest Model Loop</h3>
-			<img src="model_animation.gif" width="150" height="150" />
-			<h3>Wave Period</h3>
-			<p>Coming Soon...<p>
-			<h3>Wave Period Latest Model Loops</h3>
-			<p>Coming Soon...<p>
+			<p><font size="3">(click to view) </font><p>
+			<div class="grid-container">
+  				<div class="grid-item">
+					<h3>Significant Wave Height Actual and Forecast</h3>
+					<a href="wave_ht_plots.html">
+						<img src="wave_ht_static.png" width="400" height="200" />
+					</a>
+  				</div>
+
+  				<div class="grid-item">
+  					<h3>Significant Wave Height Latest Model Loop</h3>
+					<img src="model_animation.gif" width="150" height="150" />
+  				</div>
+  				<div class="grid-item">
+					<h3>Wave Period</h3>
+					<p>Coming Soon...</p>
+				</div>
+				<div class="grid-item">
+					<h3>Wave Period Latest Model Loops</h3>
+					<p>Coming Soon...</p>
+				</div>
+			</div>
     		<footer>
 	    		<ul>
 	        		<li><a href="https://github.com/DrakonianMight">github.com/DrakonianMight</a><li>
