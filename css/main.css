@@ -78,6 +78,13 @@ ul.posts li {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
