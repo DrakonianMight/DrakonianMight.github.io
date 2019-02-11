@@ -7,13 +7,12 @@ nav ul, footer ul {
     padding: 20px;
     list-style: none;
     font-weight: bold;
-}
+ }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-a {
-    text-decoration: none;
+a { text-decoration: none;
     color: #999;
 }
 a:hover {
@@ -51,14 +50,6 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
 /* Container holding the image and the text */
 .container {
     position: relative;
