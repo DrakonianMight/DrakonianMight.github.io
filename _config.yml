@@ -1,4 +1,4 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-midnight
 title: Welcome to OceanView!
 decription: A MetOcean interface.
 markdown: kramdown
