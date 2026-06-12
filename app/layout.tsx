@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
+import { SiteNav } from '@/components/site-nav'
 import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });
@@ -24,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-background">
       <body className="font-sans antialiased">
+        <SiteNav />
         {children}
       </body>
     </html>
