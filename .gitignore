@@ -1,1 +1,13 @@
-	_site/
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Build info / caches
+tsconfig.tsbuildinfo
+
+# Misc
+.DS_Store
+*.log
