@@ -2,16 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-
-interface NavLink {
-  href: string
-  label: string
-}
-
-const NAV_LINKS: NavLink[] = [
-  { href: "/", label: "Dashboard" },
-  { href: "/sources", label: "Data Sources" },
-]
+import { NAV_LINKS, isActiveLink } from "@/lib/nav"
 
 export function SiteNav() {
   const pathname = usePathname()
@@ -20,7 +11,7 @@ export function SiteNav() {
     <nav className="fixed left-1/2 top-4 z-50 -translate-x-1/2">
       <div className="flex items-center gap-1 rounded-lg border border-border bg-card/95 p-1 shadow-md backdrop-blur-sm">
         {NAV_LINKS.map(({ href, label }) => {
-          const isActive = href === "/" ? pathname === "/" : pathname.startsWith(href)
+          const isActive = isActiveLink(pathname, href)
           return (
             <Link
               key={href}
